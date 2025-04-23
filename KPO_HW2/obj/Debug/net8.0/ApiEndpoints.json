@@ -1,0 +1,223 @@
+[
+  {
+    "ContainingType": "KPO_HW2.Presentation.AnimalController",
+    "Method": "CreateAnimal",
+    "RelativePath": "api/animal",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "KPO_HW2.Presentation.Contracts.Animals.CreateAnimalRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "KPO_HW2.Presentation.AnimalController",
+    "Method": "DeleteAnimal",
+    "RelativePath": "api/animal/{animalId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "animalId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "KPO_HW2.Presentation.AnimalController",
+    "Method": "GetAnimal",
+    "RelativePath": "api/animal/{animalId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "animalId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "KPO_HW2.Presentation.AnimalController",
+    "Method": "TransferAnimal",
+    "RelativePath": "api/animal/{animalId}/transfer",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "animalId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "request",
+        "Type": "KPO_HW2.Presentation.Contracts.Animals.TransferAnimalRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "KPO_HW2.Presentation.Controllers.EnclosureController",
+    "Method": "CreateEnclosure",
+    "RelativePath": "api/enclosures",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "KPO_HW2.Presentation.Contracts.Enclosure.CreateEnclosureRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "KPO_HW2.Presentation.Controllers.EnclosureController",
+    "Method": "GetEnclosure",
+    "RelativePath": "api/enclosures/{enclosureId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "enclosureId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "KPO_HW2.Presentation.Controllers.EnclosureController",
+    "Method": "DeleteEnclosurel",
+    "RelativePath": "api/enclosures/{enclosureId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "enclosureId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "KPO_HW2.Presentation.Controllers.FeedingScheduleController",
+    "Method": "CreateFeedingSchedule",
+    "RelativePath": "api/feeding-schedules",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "KPO_HW2.Presentation.Contracts.FeedingSchedule.CreateFeedingScheduleRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "KPO_HW2.Presentation.Controllers.FeedingScheduleController",
+    "Method": "GetFeedingSchedule",
+    "RelativePath": "api/feeding-schedules/{feedingScheduleId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "feedingScheduleId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "KPO_HW2.Presentation.Controllers.FeedingScheduleController",
+    "Method": "DeleteFeedingSchedule",
+    "RelativePath": "api/feeding-schedules/{feedingScheduleId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "feedingScheduleId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "KPO_HW2.Presentation.Controllers.FeedingScheduleController",
+    "Method": "GetFeedingSchedulesByAnimal",
+    "RelativePath": "api/feeding-schedules/animal/{animalId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "animalId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "KPO_HW2.Presentation.Controllers.ZooStatisticsController",
+    "Method": "GetAnimalsCount",
+    "RelativePath": "api/zoo-statistics/animals-count",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "KPO_HW2.Presentation.Controllers.ZooStatisticsController",
+    "Method": "GetCompletedFeedingsCount",
+    "RelativePath": "api/zoo-statistics/completed-feedings-count",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "KPO_HW2.Presentation.Controllers.ZooStatisticsController",
+    "Method": "GetFreeEnclosuresCount",
+    "RelativePath": "api/zoo-statistics/free-enclosures-count",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "KPO_HW2.Presentation.Controllers.ZooStatisticsController",
+    "Method": "GetSummaryStatistics",
+    "RelativePath": "api/zoo-statistics/summary",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]
