@@ -1,0 +1,23 @@
+# Build results
+bin/
+obj/
+out/
+
+# Visual Studio
+.vs/
+.vscode/
+
+
+# Test results
+TestResults/
+*.coverage
+*.coveragexml
+
+# NuGet
+*.nupkg
+packages/
+*.snupkg
+project.lock.json
+project.fragment.lock.json
+
+отчет.docx 
