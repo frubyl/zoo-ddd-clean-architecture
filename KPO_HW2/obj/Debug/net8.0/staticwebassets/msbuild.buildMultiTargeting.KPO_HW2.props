@@ -1,3 +1,0 @@
-﻿<Project>
-  <Import Project="..\build\KPO_HW2.props" />
-</Project>
